@@ -10,7 +10,7 @@ namespace ShoeShop
         public Login()
         {
             InitializeComponent();
-            Icon = new Icon("Icon.ico");
+            Icon = Icon.FromHandle(new Bitmap("Icon.png").GetHicon());
         }
 
         private void button1_Click(object sender, EventArgs e)

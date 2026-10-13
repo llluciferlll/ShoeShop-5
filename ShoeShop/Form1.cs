@@ -13,7 +13,7 @@ namespace ShoeShop
         public Form1(string role, string fullName)
         {
             InitializeComponent();
-            Icon = new Icon("Icon.ico");
+            Icon = Icon.FromHandle(new Bitmap("Icon.png").GetHicon());
             label1.Text = fullName;
             canFilter = role == "Администратор" || role == "Менеджер";
             comboBox1.Items.Add("products");
