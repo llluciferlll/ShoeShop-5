@@ -5,7 +5,7 @@ namespace ShoeShop
 {
     public partial class Login : Form
     {
-        string connStr = "Server=localhost;Port=5432;Database=shoes;User Id=postgres;Password=1234";
+        string connStr = "Server=localhost;Port=5432;Database=shoes;User Id=postgres;Password=32351616aa";
 
         public Login()
         {
